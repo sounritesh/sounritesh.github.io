@@ -1,20 +1,9 @@
-<link rel="shortcut icon" href="favicon.ico">
-
-
-<link rel="stylesheet" href="css/normalize.css" type="text/css">
-<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-<link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-<link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-<link rel="stylesheet" href="css/main.css" type="text/css">
-
-<script src="js/modernizr.custom.js"></script>
-
 <div id="ajax-page" class="ajax-page-content">
     <div class="ajax-page-wrapper">
         <div class="ajax-page-nav">
             <div class="nav-item ajax-page-prev-next">
-                <a class="ajax-page-load" href="portfolio-project-3.html"><i class="lnr lnr-chevron-left"></i></a>
-                <a class="ajax-page-load" href="portfolio-project-2.html"><i class="lnr lnr-chevron-right"></i></a>
+                <a class="ajax-page-load" href="portfolio-project-1.html"><i class="lnr lnr-chevron-left"></i></a>
+                <a class="ajax-page-load" href="portfolio-project-3.html"><i class="lnr lnr-chevron-right"></i></a>
             </div>
             <div class="nav-item ajax-page-close-button">
                 <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
@@ -29,39 +18,36 @@
             <div class="col-sm-8 col-md-8 portfolio-block">
                 <div class="owl-carousel portfolio-page-carousel">
                     <div class="item">
-                        <img src="img/laas/dashboard.PNG" alt="" />
+                        <h4>Global Dashboard</h4>
+                        <img src="img/laas/dashboard.PNG" alt="Global Dashboard" />
                     </div>
                     <div class="item">
-                        <img src="img/laas/users.PNG" alt="" />
+                        <img src="img/laas/users.PNG" alt="Event Dashboard" />
                     </div>
                     <div class="item">
-                        <img src="img/laas/userdetail1.PNG" alt="" />
+                        <img src="img/laas/userdetail1.PNG" alt="User Analysis" />
                     </div>
                     <div class="item">
-                        <img src="img/laas/userdetail2.PNG" alt="" />
+                        <img src="img/laas/userdetail2.PNG" alt="User Activity Analysis" />
                     </div>
                 </div>
 
-                <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item"
-                        src="https://player.vimeo.com/video/97102654?autoplay=0"></iframe>
-                </div>
+                <!-- <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/97102654?autoplay=0"></iframe>
+                </div> -->
 
-                <script src="js/jquery-3.5.1.min.js"></script>
-                <script type="text/javascript"></script>
-                <script src="js/imagesloaded.pkgd.min.js"></script>
-                <script>
-                    jQuery(document).ready(function ($) {
-                        $('.portfolio-page-carousel').imagesLoaded(function () {
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').imagesLoaded(function(){
                             $('.portfolio-page-carousel').owlCarousel({
-                                smartSpeed: 1200,
+                                smartSpeed:1200,
                                 items: 1,
                                 loop: true,
                                 dots: true,
                                 nav: true,
                                 navText: false,
                                 margin: 10,
-                                autoHeight: true
+                                autoHeight:true
                             });
                         });
                     });
@@ -75,19 +61,12 @@
                         <h3>Description</h3>
                     </div>
                     <ul class="project-general-info">
-                        <li>
-                            <p><i class="fa fa-user"></i> Alex Smith</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-globe"></i> <a href="#" target="_blank">www.project-site.com</a></p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-calendar"></i> 25 december, 2016</p>
-                        </li>
+                        <li><p><i class="fa fa-user"></i> Alex Smith</p></li>
+                        <li><p><i class="fa fa-globe"></i> <a href="#" target="_blank">www.project-site.com</a></p></li>
+                        <li><p><i class="fa fa-calendar"></i> 25 december, 2016</p></li>
                     </ul>
 
-                    <p class="text-justify">Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et
-                        malesuada fames ac ante ipsum primis in faucibus.</p>
+                    <p class="text-justify">Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
                     <!-- /Project Description -->
 
                     <!-- Technology -->
