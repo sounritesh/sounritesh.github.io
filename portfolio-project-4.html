@@ -2,8 +2,8 @@
     <div class="ajax-page-wrapper">
         <div class="ajax-page-nav">
             <div class="nav-item ajax-page-prev-next">
-                <a class="ajax-page-load" href="portfolio-project-1.html"><i class="lnr lnr-chevron-left"></i></a>
-                <a class="ajax-page-load" href="portfolio-project-3.html"><i class="lnr lnr-chevron-right"></i></a>
+                <a class="ajax-page-load" href="portfolio-project-2.html"><i class="lnr lnr-chevron-left"></i></a>
+                <a class="ajax-page-load" href="portfolio-project-4.html"><i class="lnr lnr-chevron-right"></i></a>
             </div>
             <div class="nav-item ajax-page-close-button">
                 <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
@@ -11,31 +11,19 @@
         </div>
 
         <div class="ajax-page-title">
-            <h1>Intelligent Article Analyzer</h1>
+            <h1>DMix: Adaptive Distance-aware Interpolative Mixup</h1>
         </div>
 
         <div class="row">
             <div class="col-sm-8 col-md-8 portfolio-block">
                 <div class="owl-carousel portfolio-page-carousel">
                     <div class="item">
-                        <h4>Article Input (Text or URL)</h4>
-                        <img src="img/article-analyzer/landing.PNG" alt="Global Dashboard" />
-                    </div>
-                    <div class="item">
-                        <h4>Article Analysis</h4>
-                        <img src="img/article-analyzer/analysis.PNG" alt="Event Dashboard" />
+                        <h4>Research Paper Method Diagram</h4>
+                        <img src="img/dmix/diag.jpg" alt="Method" />
                     </div>
                 </div>
 
-                <p>The analyzer can be fed <b>directly with the text</b> of the article or, it can be provided a <b>URL to the article</b>. It processes the text scraped from the URL or fed directly to it and detects its language, produces a word cloud, extracts keywords, generates a summary and calculates the word count. 
-                <br><br>
-                It supports <b>9 languages</b> which includes English, Arabic, German, French, Portuguese, Italian, Spanish, Dutch and Turkish.
-                <br><br>
-                It leverages techniques like <b>web scraping, data cleaning, text preprocessing, text summarization, tokenization and classification</b>.
-                <br><br>
-                It is deployed using <b>Heroku</b>.
-                </p>
-
+                <p>Interpolation-based regularisation methods such as Mixup, which generate virtual training samples, have proven to be effective for various tasks and modalities.We extend Mixup and propose DMix, an adaptive distance-aware interpolative Mixup that selects samples based on their diversity in the embedding space. DMix leverages the hyperbolic space as a similarity measure among input samples for a richer encoded representation.DMix achieves state-of-the-art results on sentence classification over existing data augmentation methods on 8 benchmark datasets across English, Arabic, Turkish, and Hindi languages while achieving benchmark F1 scores in 3 times less number of iterations.We probe the effectiveness of DMix in conjunction with various similarity measures and qualitatively analyze the different components.DMix being generalizable, can be applied to various tasks, models and modalities.</p>
                 <!-- <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/97102654?autoplay=0"></iframe>
                 </div> -->
@@ -66,12 +54,12 @@
                     </div>
                     <ul class="project-general-info">
                         <li><p><i class="fa fa-user"></i> Ritesh Soun</p></li>
-                        <li><p><i class="fab fa-github" style="color: #4A6583;"></i> <a href="https://github.com/sounritesh/Article-Analyzer"> Github Repository</a></p></li>
-                        <li><p><i class="fa fa-globe"></i> <a href="https://ai-article-analyzer.herokuapp.com/" target="_blank">ai-article-analyzer.herokuapp.com/</a></p></li>
-                        <li><p><i class="fa fa-calendar"></i> May, 2021</p></li>
+                        <li><p><i class="fab fa-github" style="color: #4A6583;"></i> <a href="https://github.com/caisa-lab/DMix-ACL"> [Source Code]</a></p></li>
+                        <li><p><i class="fa fa-globe"></i> <a href="https://aclanthology.org/2022.acl-short.67/" target="_blank">60th Annual Meeting of the Association for Computational Linguistics [Paper Link]</a></p></li>
+                        <li><p><i class="fa fa-calendar"></i> May, 2022</p></li>
                     </ul>
 
-                    <p class="text-justify">It is a multi-lingual tool to analyse and summarize a given article by producing visualisations like word cloud, generating a summary and extracting keywords from the article.</p>
+                    <p class="text-justify">It is a research study done in collaboration with the CAISA Lab at Philipps-Universität Marburg introducing a novel data augmentation technique.</p>
                     <!-- /Project Description -->
 
                     <!-- Technology -->
@@ -81,9 +69,8 @@
                         </div>
                         <ul class="tags">
                             <li><a>Python</a></li>
-                            <li><a>Django</a></li>
-                            <li><a>JavaScript</a></li>
-                            <li><a>Machine Learning</a></li>
+                            <li><a>Pytorch</a></li>
+                            <li><a>Deep Learning</a></li>
                             <li><a>Natural Language Processing</a></li>
                         </ul>
                     </div>
